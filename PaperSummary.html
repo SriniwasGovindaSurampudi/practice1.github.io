@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Summary of Papers Read</title>
+	<style>
+		table {
+			width: 100%
+	}
+	tale, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th {
+		padding: 5px;
+		text-align: center;
+	}
+	td {
+		padding: 5px;
+		text-align: justify;
+	}
+	table tr:nth-child(even) {
+		background-color: #fff;
+	}
+	table tr:nth-child(odd) {
+		background-color: #eee;
+	}
+	table th {
+		background-color: black;
+		color: white;
+	}
+	a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+	}
+	a:visited {
+	    color: green;
+	    background-color: transparent;
+	    text-decoration: none;
+	}
+	a:hover {
+ 	   color: red;
+ 	   background-color: transparent;
+ 	   text-decoration: underline;
+	}
+	a:active {
+ 	   color: yellow;
+ 	   background-color: transparent;
+ 	   text-decoration: underline;
+	}
+	h1 {
+		text-align: center;
+	}
+	select {
+		color: blue;
+	}
+	</style>
+</head>
+<body>
+	<h1>SUMMARY OF PAPERS</h1>
+	<table>
+		<tr>
+			<th style="width:200px">Title</th>
+			<th style="width:300px">Summary</th>
+			<th style="width:150px">Authors</th>
+			<th style="width:50px">Publication Year</th>
+			<th style="width:150px">Citation(Chicago)</th>
+			<th style="width:50px">Link</th>
+			<th style="width:25px">Color Code</th>
+		</tr>
+		<tr>
+			<td>A Tutorial on Spectral Clustering</td>
+			<td>Three tyes of graph laplacians, unnormalized, random walk and symmetric graph laplacians, and their properties are described. Their related spectral clustering algorithms are derived from scratch from several different approaches viz graph-cuts, random-walk and perturbation theory point of views.</td>
+			<td>Ulrike von Luxburg</td>
+			<td>2007</td>
+			<td>Von Luxburg, Ulrike. "A tutorial on spectral clustering." Statistics and computing 17, no. 4 (2007): 395-416.</td>
+			<td>
+				<a href="http://arxiv.org/pdf/0711.0189.pdf" target="_blank">Find here</a>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>Laplacian Eigenmaps for Dimensionality Reduction and Data Representation</td>
+			<td>This paper deals with the problem of appropriate representation of data lying on a low dimensional manifold, which is in a higher dimensional space. The paper shows correspondences between the proposed method and Laplace Beltrami operator on manifolds  and connects with the heat equation. The geometrically motivated algorithm is an efficient approach for nonlinear dimensionality reduction. This algorithm uses the eigen values and eigen vectors of graph Laplacian. This is very much related to spectral clustering algorithm, just that the eigen vectors are used as bases for the embedding to reduce dimensionality of data.</td>
+			<td>Mikhail Belkin, Partha Niyogi</td>
+			<td>2003</td>
+			<td>Belkin, Mikhail, and Partha Niyogi. "Laplacian eigenmaps for dimensionality reduction and data representation." Neural computation 15, no. 6 (2003): 1373-1396.</td>
+			<td>
+				<a href="https://www.cs.rochester.edu/u/stefanko/Teaching/09CS446/Laplacian.pdf" target="_blank">Find here</a>
+			</td>
+
+		</tr>
+		<tr>
+			<td>Network diffusion accurately models the relationship between structural and functional brain connectivity networks</td>
+			<td>This paper hypothesises that diffusion of signals on structural connection of the brain network can predict functinoal connectivity. Considering only one ROI actice at a time, the activation signals reaching its neighbor ROIs, through diffusion, at any given time is hypothesised as the pairwise correlation between these ROIs. These individually and independently active ROI activation diffusions are stacked together and hypothesised that the overall functional correlaton matrix can match at a particular scale.</td>
+			<td>Farras Abdelnour, Henning U. Voss, Ashish Raj</td>
+			<td>2013</td>
+			<td>Abdelnour, Farras, Henning U. Voss, and Ashish Raj. "Network diffusion accurately models the relationship between structural and functional brain connectivity networks." Neuroimage 90 (2014): 335-347.</td>
+			<td>
+				<a href="http://www.sciencedirect.com/science/article/pii/S1053811913012597" target="_blank">Find here</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Machine learning with brain graphs: predictive modeling approaches for functional imaging in systems neuroscience</td>
+			<td>This paper clearly explains the different stages of machine learning with brain graphs. How the time series data are processed from the voxels, how these time series are used to form brain graphs, and then how are statistical machine learning methods applied for predictive modelling. </td>
+			<td>Jonas Richiardi, Sophie Achard, Horst Bunke, and Dimitri Van De Ville</td>
+			<td>2013</td>
+			<td>Richiardi, Jonas, Sophie Achard, Horst Bunke, and Dimitri Van De Ville. "Machine learning with brain graphs: predictive modeling approaches for functional imaging in systems neuroscience." Signal Processing Magazine, IEEE 30, no. 3 (2013): 58-70.</td>
+			<td>
+				<a href="http://web.stanford.edu/~richiard/papers/2013-Richiardi-IEEESigProcMag.pdf" target="_blank">Find here</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
